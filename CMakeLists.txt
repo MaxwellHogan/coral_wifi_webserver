@@ -16,8 +16,8 @@ add_subdirectory(coralmicro)
 add_executable_m7(coralmicro-app
         main.cc
         DATA
-        # ${CMAKE_CURRENT_SOURCE_DIR}/tf2_ssd_mobilenet_v2_coco17_ptq_edgetpu.tflite
-        ${CMAKE_CURRENT_SOURCE_DIR}/ssd_mobilenet_v2_face_quant_postprocess_edgetpu.tflite
+        ${CMAKE_CURRENT_SOURCE_DIR}/tf2_ssd_mobilenet_v2_coco17_ptq_edgetpu.tflite
+        # ${CMAKE_CURRENT_SOURCE_DIR}/ssd_mobilenet_v2_face_quant_postprocess_edgetpu.tflite
         # ${CMAKE_CURRENT_SOURCE_DIR}/yolov8n_saved_model/yolov8n_full_integer_quant_edgetpu.tflite
         ${CMAKE_CURRENT_SOURCE_DIR}/index.html>/index.html
 )

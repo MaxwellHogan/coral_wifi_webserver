@@ -43,9 +43,15 @@
         const imgUrl = "/camera_stream";
         const bboxUrl = "/bboxes";
 
+        // url of the test methods 
+        const testUrl = "/test_method";
+
         // Timeout for fetch requests (ms)
         const fetchImageTimeout = 2000;
         const fetchBboxTimeout = 200;
+        
+        // Timeout for test function:
+        const fetchTestTimeout = 200;
 
         // Global variables
         let rawImageData = null;
@@ -119,6 +125,14 @@
                 console.error('No raw image data available.');
             }
         }
+
+        // test function used to call methods in the C code 
+        async function testButtonPressed(){
+            console.log("Test button press ack in html");
+            const cCodeResponse = await timeout(fetchTestTimeout, fetch(testUrl));
+
+
+        }
                 
         // Main loop to fetch image and bounding boxes and draw them on the canvas
         async function updateImage () {
@@ -126,6 +140,10 @@
             // Add event listener to save image button
             const saveImageBtn = document.getElementById("save-image-button");
             saveImageBtn.addEventListener("click", saveImage);
+
+            // Add event listener to test button
+            const testBtn = document.getElementById("test-button");
+            testBtn.addEventListener("click", testButtonPressed);
 
             // Create image reader and canvas context
             const imgReader = new FileReader();
@@ -184,7 +202,7 @@
                 }
 
                 // Log bounding boxes
-                console.log(bboxInfo);
+                // console.log(bboxInfo);
 
                 // Draw image and bounding boxes
                 imgReader.readAsDataURL(imageBlob);
@@ -220,7 +238,7 @@
                 dynamicFpsLabel.textContent = `FPS: ${fps.toFixed(2)}`;
 
                 // Log time to fetch and draw image
-                console.log("Total update time: ", Date.now() - startTime);
+                // console.log("Total update time: ", Date.now() - startTime);
 
                 // Wait before fetching new image
                 await sleep(10);
@@ -279,6 +297,7 @@
         <label for="image-label" class="input-label">Label:</label>
         <input id="image-label" type="text" required value="image">
         <button id="save-image-button">Save Image</button>
+        <button id="test-button">TEST</button>
     </div>
     <div id="dynamic-fps-label">
         FPS: N/A

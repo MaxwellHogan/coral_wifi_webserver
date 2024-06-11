@@ -11,6 +11,7 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/mutex.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/network.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/queue_task.h \
+  /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/spi.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/strings.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/tasks.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/utils.h \
@@ -101,6 +102,8 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_csi.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_lpi2c.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_lpi2c_freertos.h \
+  /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_lpspi.h \
+  /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_lpspi_freertos.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_sema4.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/fsl_device_registers.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/system_MIMXRT1176_cm7.h \
@@ -412,11 +415,8 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdbool.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h \
   /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint-gcc.h \
-  /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h \
-  /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/metadata.hpp
+  /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h
 
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/metadata.hpp:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h:
 
@@ -620,19 +620,13 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/std_abs.h:
 
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/opt.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/netif.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/memp.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/ip6_addr.h:
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/sstream.tcc:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/ip_addr.h:
 
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/kernels/op_macros.h:
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/ip6_addr.h:
 
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/main.cc:
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/memp.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/os_defines.h:
 
@@ -690,17 +684,9 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/config/trace_csr_offsets.h:
 
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/components/osa/fsl_os_abstraction.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_common.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/lock.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/components/serial_manager/fsl_component_serial_port_uart.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/ipc_message_buffer.h:
-
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/freertos_kernel/include/task.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_lpspi.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_sigset.h:
 
@@ -717,12 +703,6 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/config/debug_scalar_core_csr_offsets.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/freertos_kernel/include/deprecated_definitions.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/unique_ptr.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/modified/nxp/rt1176-sdk/lwipopts.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/postypes.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/stl_tempbuf.h:
 
@@ -743,6 +723,14 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/cstddef:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/utilities/debug_console/fsl_debug_console.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/cwctype:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/stl_multiset.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/shared_ptr_base.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/config/chip_config.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/freertos_kernel/include/event_groups.h:
 
@@ -792,6 +780,10 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/littlefs/lfs_util.h:
 
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/err.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/port/arch/sys_arch.h:
+
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/exception.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/hardware_structures.h:
@@ -834,6 +826,22 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/predefined_ops.h:
 
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/components/osa/fsl_os_abstraction.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_common.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/lock.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/components/serial_manager/fsl_component_serial_port_uart.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/ipc_message_buffer.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/unique_ptr.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/postypes.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/modified/nxp/rt1176-sdk/lwipopts.h:
+
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/cpp_type_traits.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/fsl_device_registers.h:
@@ -868,6 +876,8 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/http_server.h:
 
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/micro/kernels/softmax.h:
+
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/basic_string.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tensorflow/detection.h:
@@ -882,14 +892,6 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/assert.h:
 
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include-fixed/syslimits.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_intsup.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/freertos_kernel/include/portable.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/queue_task.h:
-
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/edgetpu_op.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/enable_special_members.h:
@@ -899,6 +901,14 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/stl_raw_storage_iter.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/parse_numbers.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include-fixed/syslimits.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_intsup.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/freertos_kernel/include/portable.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/queue_task.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/freertos_kernel/portable/GCC/ARM_CM4F/portmacro.h:
 
@@ -928,6 +938,8 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/freertos_kernel/include/list.h:
 
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/base/spi.h:
+
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/hashtable_policy.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/config/misc_csr_offsets.h:
@@ -951,6 +963,10 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/freertos_kernel/include/FreeRTOS.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/specfun.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/config/wire_csr_offsets.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/ip4_addr.h:
 
@@ -992,10 +1008,6 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/usb_host_edgetpu.h:
 
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/port/arch/sys_arch.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/err.h:
-
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/usb/descriptors.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/config/beagle/beagle_chip_config.h:
@@ -1009,6 +1021,14 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/memory:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/alloc_traits.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/netif.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/opt.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/main.cc:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/kernels/op_macros.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/pbuf.h:
 
@@ -1090,8 +1110,6 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/micro/kernels/reduce.h:
 
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/micro/kernels/softmax.h:
-
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/kernels/internal/types.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/micro/memory_planner/micro_memory_planner.h:
@@ -1112,8 +1130,6 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/locale_facets.h:
 
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/sstream.tcc:
-
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/middleware/lwip/src/include/lwip/altcp.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/portable_type_to_tflitetype.h:
@@ -1121,6 +1137,8 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/schema/schema_generated.h:
+
+/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/nxp/rt1176-sdk/devices/MIMXRT1176/drivers/fsl_lpspi_freertos.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/_newlib_version.h:
 
@@ -1229,15 +1247,3 @@ CMakeFiles/coralmicro-app.dir/main.cc.obj: /home/nuc11car/Documents/google_coral
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/tflite-micro/tensorflow/lite/core/api/error_reporter.h:
 
 /home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/shared_ptr_atomic.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/cwctype:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/stl_multiset.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/config/chip_config.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/shared_ptr_base.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/libs/tpu/darwinn/driver/config/wire_csr_offsets.h:
-
-/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/coralmicro/third_party/toolchain-linux/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1/bits/specfun.h:

@@ -57,7 +57,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "libs_arduino_coral_micro_bundled.txt.in"
   "libs_arduino_coral_micro_poe_bundled.txt.in"
   "libs_arduino_coral_micro_wifi_bundled.txt.in"
-  "/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/ssd_mobilenet_v2_face_quant_postprocess_edgetpu.tflite"
+  "/home/nuc11car/Documents/google_coral_projects/coralmicro-out-of-tree-sample/tf2_ssd_mobilenet_v2_coco17_ptq_edgetpu.tflite"
   "/usr/local/share/cmake-3.29/Modules/CMakeASMInformation.cmake"
   "/usr/local/share/cmake-3.29/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
@@ -83,7 +83,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "ssd_mobilenet_v2_face_quant_postprocess_edgetpu.tflite"
+  "tf2_ssd_mobilenet_v2_coco17_ptq_edgetpu.tflite"
   "index.html"
   "coralmicro-app.libs"
   "coralmicro-app.data"
